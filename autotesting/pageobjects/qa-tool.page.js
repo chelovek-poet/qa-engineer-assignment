@@ -68,7 +68,7 @@ class qaToolPage {
   }
 
   @step()
-  getCurrentQuestionsNumber() {
+  getCurrentQuestionsAmount() {
     this.createdQuestions().length;
   }
 
@@ -139,7 +139,7 @@ class qaToolPage {
 
   @step()
   expectQuestionsNumberInSidebar() {
-    const questionsNumber = this.getCurrentQuestionsNumber();
+    const questionsNumber = this.getCurrentQuestionsAmount();
     let middleText
     switch (questionsNumber) {
       case 0:
