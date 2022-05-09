@@ -1,5 +1,5 @@
 const { expect } = require('@playwright/test');
-const { UNSORTED, SORTED } = require('./sort-questions.data');
+const { UNSORTED, SORTED } = require('../testData/sort-questions.data');
 
 exports.QaToolPage = class QaToolPage {
   /**

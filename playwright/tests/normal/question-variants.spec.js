@@ -1,6 +1,6 @@
 const { test } = require('@playwright/test');
 const { QaToolPage } = require('../../pageobjects/qa-tool.page');
-const { QA_PAIRS } = require('../../pageobjects/qa-pairs.data');
+const { QA_PAIRS } = require('../../testData/qa-pairs.data');
 
 test.describe("Normal tests", () => {
   [...QA_PAIRS].forEach(qa => {
